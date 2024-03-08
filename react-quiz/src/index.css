@@ -41,11 +41,12 @@ body {
 }
 
 .app-header {
-  width: 45rem;
+  width: 100%;
   margin-bottom: 4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 45rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -73,11 +74,11 @@ body {
 }
 
 img {
-  width: 14rem;
+  width: 8rem;
 }
 
 h1 {
-  font-family: "Oleo Script", system-ui;
+  font-family: "Rubik 80s Fade", system-ui;
   font-size: 5.6rem;
 }
 
